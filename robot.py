@@ -1,7 +1,7 @@
 
 #Aqui poneis el Docstring que querais
 """
-Este codigo esta descrito en el siguiente documento con licencia propia https://www.printables.com/model/818975-compact-robot-arm-arduino-3d-printed/files
+Este codigo esta descrito en el siguiente documento con licencia propia : https://www.printables.com/model/818975-compact-robot-arm-arduino-3d-printed/files
 Este script de Python está diseñado para controlar la posición de las diferentes partes de un brazo robótico utilizando servos y potenciómetros. 
 El objetivo principal es mapear las entradas de los potenciómetros a los motores de los servos, permitiendo el movimiento de las distintas partes del brazo.
 
