@@ -40,11 +40,7 @@ FREQUENCY = 50
 pwm = adafruit_pca9685.PCA9685(i2c)
 kit = Servokit(channels=16)
 
-# Asociar potenciómetros a pines de entrada
-potWrist = GPIO.input(11)
-potElbow = GPIO.input(13)
-potShoulder = GPIO.input(15)
-potBase = GPIO.input(19)
+
 
 
 
@@ -61,6 +57,12 @@ wrist = adafruit_motor.servo.Servo(2)
 elbow = adafruit_motor.servo.Servo(3)
 shoulder = adafruit_motor.servo.Servo(4)
 base = adafruit_motor.servo.Servo(5)
+
+potWrist = adafruit_motor.servo.Servo(6)    # Asociar potenciómetros a pines de entrada
+potElbow = adafruit_motor.servo.Servo(7)
+potShoulder = adafruit_motor.servo.Servo(8)
+potBase = adafruit_motor.servo.Servo(9)
+
 
 
 
