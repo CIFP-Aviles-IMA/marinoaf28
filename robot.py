@@ -6,7 +6,7 @@ Este script de Python está diseñado para controlar la posición de las diferen
 El objetivo principal es mapear las entradas de los potenciómetros a los motores de los servos, permitiendo el movimiento de las distintas partes del brazo.
 
 Características principales:
-1. **Control de Servos:** Los servos se controlan a través de señales PWM enviadas por el controlador de servos (PCA9685).
+1. **Control de Servos:** Los servos se controlan a través de señales  enviadas por el controlador de servos (PCA9685).
 2. **Potenciómetros:** Los potenciómetros se utilizan para establecer la posición deseada de los servos (y, consecuentemente, de las partes del robot).
 3. **Manejo del "gripper":** Se usa un botón para abrir y cerrar un "gripper" mecánico.
 
@@ -81,7 +81,7 @@ def moveMotor(controlIn, motorOut):
     
     Ejemplo de uso:
     >>> moveMotor(potWrist, wrist)
-    # Esto configurará el motor conectado al pin 2 (wrist) según la posición del potenciómetro en el pin 11 (potWrist).
+    # Esto configurará el motor conectado al pin 2 (wrist) según la posición del potenciómetro en el pin 6 (potWrist).
     """
 
     pulse_wide, pulse_width, potVal = -7
